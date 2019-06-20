@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore src",
+    "fix": "eslint --ignore-path .gitignore --fix src"
+  }
+}
