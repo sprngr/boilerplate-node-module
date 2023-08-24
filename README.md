@@ -2,7 +2,7 @@
 
 > {{short description}}
 
-{{long description}}
+{{longer description}}
 
 ## Initial Setup
 

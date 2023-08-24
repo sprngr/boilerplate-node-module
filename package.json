@@ -1,9 +1,20 @@
 {
-  "devDependencies": {
-    "eslint": "^7.4.0"
-  },
+  "name": "boilerplate-nodejs",
+  "version": "1.0.0",
+  "description": "Boilerplate Project",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore src",
-    "fix": "eslint --ignore-path .gitignore --fix src"
+    "start": "node src/index.js",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "test": "npx ava test/**/*"
+  },
+  "dependencies": {
+    "colorette": "^2.0"
+  },
+  "devDependencies": {
+    "ava": "^5.3.1",
+    "eslint": "^8.0"
   }
 }
